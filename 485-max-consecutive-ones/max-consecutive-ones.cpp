@@ -29,7 +29,6 @@ public:
             if(arr[i]==1){
                 count++;
                 max_count=max(max_count,count);
-
             }
             else{
                 count=0;
