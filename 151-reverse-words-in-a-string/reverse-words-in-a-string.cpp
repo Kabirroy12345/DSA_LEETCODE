@@ -20,14 +20,14 @@ public:
         }
         reverse(words.begin(),words.end());
 
-        string ans;
-        //array traversal
-        for(int i=0;i<words.size();i++){
-            ans+=words[i];
-            if (i != words.size() - 1) {
+        string ans = "";
+
+        for(int i = 0; i < words.size(); i++){
+             if(i > 0){
                 ans += " ";
-            }       
-        }
+                    }
+                 ans += words[i];
+                }
         return ans;
     }
 };
