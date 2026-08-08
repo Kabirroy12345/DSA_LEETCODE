@@ -8,8 +8,7 @@ public:
 
         while(s<=e){
             if(s==e){
-                if(ans==-1){
-                    ans=s;}
+                ans=s;
                 break;
             }
             int mid=(s+e)/2;
